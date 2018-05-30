@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:weightSum="3"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="4"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/mark"
+            android:layout_weight="1"
+            android:id="@+id/iv_11"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/mark"
+            android:layout_weight="1"
+            android:id="@+id/iv_12"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/mark"
+            android:layout_weight="1"
+            android:id="@+id/iv_13"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/mark"
+            android:layout_weight="1"
+            android:id="@+id/iv_14"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/mark"
+            android:layout_weight="1"
+            android:id="@+id/iv_21"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/mark"
+            android:layout_weight="1"
+            android:id="@+id/iv_22"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/mark"
+            android:layout_weight="1"
+            android:id="@+id/iv_23"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/mark"
+            android:layout_weight="1"
+            android:id="@+id/iv_24"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/mark"
+            android:layout_weight="1"
+            android:id="@+id/iv_31"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/mark"
+            android:layout_weight="1"
+            android:id="@+id/iv_32"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/mark"
+            android:layout_weight="1"
+            android:id="@+id/iv_33"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/mark"
+            android:layout_weight="1"
+            android:id="@+id/iv_34"/>
+
+    </LinearLayout>
+
+</LinearLayout>
